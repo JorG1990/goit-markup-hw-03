@@ -1,4 +1,5 @@
-nav {
+body {
+    font-family: <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     width: 1600px;
     height: 80px;
     left: 0px;
@@ -7,6 +8,49 @@ nav {
     background: #FFFFFF;
 
 }
+
+.button2 {
+    width: 261px;
+    height: 50px;
+    left: 666px;
+    top: 430px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+    cursor: pointer;
+    
+    background: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+ }
+
+.button1 {
+    height: 38px;
+    width: 73px;
+    left: 495px;
+    top: 186px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    background: #2196F3;
+    color: #FFFFFF;
+ }
+
+.button {
+    height: 38px;
+width: 128px;
+border-radius: 4px;
+left: calc(50% - 128px/2 - 160px);
+top: calc(50% - 38px/2 - 735px);
+cursor: pointer;
+
+background: #F5F4FA;
+color: #212121;
+ }
 
 .study {
     width: 49px;
@@ -35,41 +79,6 @@ article {
     background: #2F303A;
     }
 
-
-
-.position {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 32px;
-    gap: 10px;
-    width: 261px;
-    height: 50px;
-    left: 666px;
-    top: 430px;
-
-    background: #2196F3;
-    } 
-    
-.position2 {
-     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 32px;
-    gap: 10px;
-    width: 261px;
-    height: 50px;
-    left: 666px;
-    top: 430px;
-    
-    background:#F5F4FA;
-    }   
-    
-
-
-
 h1 {
     color: #FFFFFF
     font-family: 'Roboto';
@@ -80,7 +89,7 @@ h1 {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-}
+    }
 
 h2 {
     color: #212121;
@@ -142,7 +151,7 @@ footer {
         color: #757575;
     }
 
-    .secund-peges {
+    .second-peges {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;

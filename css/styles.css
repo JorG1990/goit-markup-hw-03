@@ -3,6 +3,8 @@
     --blue-color: #2196F3;
     --black-color: #212121;
     --white-color: #FFFFFF;
+    --gray-color: #757575;
+    --green-color:  #148955;
 }
 
 body {
@@ -13,6 +15,18 @@ body {
     top: 0px;
 
     background: var(--white-color);
+}
+
+.title-text1{
+    color:  var(--gray-color);
+}
+
+.title-text1:hover{
+	color: var(--blue-color);
+}
+
+.title-text1:active{
+	color: var(--green-color);
 }
 
 .Logo{
@@ -32,7 +46,7 @@ body {
 }
 
 .link:active{
-	color: #148955;
+	color: var(--green-color);
 }
 .button2 {
     width: 261px;
@@ -87,7 +101,7 @@ color: var(--blue-color);
 }
 
 p {
-    color: #757575;
+    color: var(--gray-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -163,7 +177,7 @@ h4 {
 }
 
 .title-text:active{
-    color: #148955;
+    color: var(--green-color);
 }
     
 footer {
@@ -181,7 +195,7 @@ footer {
         font-weight: 400;
         font-size: 16px;
         line-height: 30px;
-        color: #757575;
+        color: var(--gray-color);
     }
 
     .second-pages {

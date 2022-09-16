@@ -7,9 +7,20 @@
     --green-color:  #148955;
 }
 
-.block{ 
+* {
+    box-sizing: content-box;
+    Width: 100%;
+  }
+
+#imgery {
     display: flex;
-    border: #ECECEC;
+  
+
+}
+  
+.blocks{ 
+    display: flex;
+    border: var(--white-color);
 }
 
 body {
@@ -115,7 +126,7 @@ p {
 }
 
 article {
-    width: 1600px;
+    width: 100%;
     height: 600px;
     left: -4px;
     top: 80px;
@@ -186,7 +197,7 @@ h4 {
 }
     
 footer {
-    width: 1600px;
+    width: 100%;
     height: 252px;
     left: 0px;
     top: 2158px;

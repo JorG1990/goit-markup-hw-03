@@ -8,29 +8,69 @@
 }
 
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
     Width: 100%;
+    list-style: none;
+    text-decoration: none;
   }
+
+#button2{
+    display: block;
+    height: 600px;
+    width: 100%;
+    left: -4px;
+    top: 80px;
+    border-radius: 0px;
+}
 
 #imgery {
     display: flex;
-  
+}
 
+#title-text{
+    padding-left: 215px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#title-text .title-text:hover{
+    text-decoration: underline;
 }
   
 .blocks{ 
+    padding-left: 215px;
+    padding-top: 24px;
+    padding-right: 219px;
+    padding-bottom: 32px;
+    background-color: var(--white-color);
+   
     display: flex;
-    border: var(--white-color);
+}
+
+.blocks .link:hover{
+	text-decoration: underline;
+}
+
+.blocks .title-text1:hover{
+	text-decoration: underline;
 }
 
 body {
     font-family: link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet";
-    width: 1600px;
+    width: 100%;
     height: 80px;
     left: 0px;
     top: 0px;
 
     background: var(--white-color);
+}
+
+.title{
+    width: 696px;
+    height: 120px;
+    margin-left: 390px;
+    padding-top: 100px;
+
 }
 
 .title-text1{
@@ -65,15 +105,23 @@ body {
 	color: var(--green-color);
 }
 .button2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
     width: 261px;
     height: 50px;
     left: 666px;
     top: 430px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 32px;
+    padding-left: 32px;
+    padding-top: 10px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    margin-left: 610px;
+    margin-top: 160px;
     gap: 10px;
     cursor: pointer;
     
@@ -186,6 +234,9 @@ h4 {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+
+    padding-left: -300px;
+
     }
 
 .title-text:hover{

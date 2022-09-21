@@ -67,7 +67,9 @@
     height: 294px;
 }
   
-.blocks{ 
+.blocks{
+    width: 1200px;
+    margin: 0 auto; 
     padding-left: 215px;
     padding-top: 24px;
     padding-right: 219px;
@@ -86,13 +88,8 @@
 }
 
 body {
-    font-family: link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet";
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
+    font-family: (link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet");
 
-    background: var(--white-color);
 }
 
 .title{
@@ -176,23 +173,23 @@ body {
 
 .button {
     height: 38px;
-width: 128px;
-border-radius: 4px;
-left: calc(50% - 128px/2 - 160px);
-top: calc(50% - 38px/2 - 735px);
-cursor: pointer;
+    width: 128px;
+    border-radius: 4px;
+    left: calc(50% - 128px/2 - 160px);
+    top: calc(50% - 38px/2 - 735px);
+    cursor: pointer;
 
-background: #F5F4FA;
-color: var(--black-color);
+    background: #F5F4FA;
+    color: var(--black-color);
  }
 
 .study {
     width: 49px;
-height: 16px;
-left: 453px;
-top: 32px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
 
-color: var(--blue-color);
+    color: var(--blue-color);
 }
 
 p {

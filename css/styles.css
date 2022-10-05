@@ -28,7 +28,7 @@ body{
 nav{
     width: 1200px;
     margin: 0 auto; 
-    margin-left: 215px;
+    padding-left: 215px;
     padding-top: 24px;
     padding-bottom: 32px;
     background-color: var(--white-color);
@@ -138,6 +138,9 @@ nav{
 
     width: 100%;
     height: 648px;
+    display: flex;
+    display: inline-block;
+    padding-left: 215px;
     list-style: none;
     background-color: #F5F4FA;
 
@@ -148,19 +151,27 @@ nav{
     height: 260px;
 }
 
+.container-portfolio{
+    width: 1200px;
+    height: 1360px;
+    margin-left: 215px;
+    margin-top: 50px;
+}
 
-#buttons.center {
+
+#buttons-center{
     display: inline-block;
     justify-content: center;
     margin-left: 495px;
     margin-right: 211px;
+    margin-top: 106px;
+    margin-bottom: 50px;
 
 }
 
 #container{
     width: 1600px;
     display: inline-block;
-    margin-left: 215px;
     margin-top: 50px;
     margin-bottom: 94px;
     margin-right: 211px;
@@ -277,7 +288,7 @@ h2 {
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.03em;
-    margin-left: 619px;
+    margin-left: 454px;
     margin-top: 94px;
     padding-top: 94px;
 }
@@ -306,13 +317,34 @@ h4 {
     }
 
 .card{
-    display: inline;
+    display: inline-block;
     width: 270px;
     height: 368px;
     margin: 23px;
+    overflow: hidden;
 	background:#FFFFFF;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+}
+.card .contents-card{
+    padding: 30px;
+	text-align: center;
+}
+
+.card-2{
+    display: inline-block;
+    width: 270px;
+    height: 368px;
+    margin: 23px;
+    overflow: hidden;
+	background:#FFFFFF;
+    box-sizing: border-box;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.card .contents-card{
+    padding: 30px;
+	text-align: justify;
 }
 
 .title-text{

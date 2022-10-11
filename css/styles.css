@@ -153,10 +153,10 @@ body{
 }
 
 .container-portfolio{
-    width: 1200px;
-    height: 1360px;
-    margin-left: 215px;
-    margin-top: 50px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+
 }
 
 
@@ -166,6 +166,7 @@ body{
     margin: 0 auto;
     display: flex;
     margin-top: 106px;
+    margin-bottom: 50px;
 
 }
 
@@ -173,6 +174,8 @@ body{
     width: 1200px;
     display: flex;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 #text {
@@ -313,9 +316,9 @@ h4 {
 
 .card-2{
     display: inline-block;
-    width: 270px;
-    height: 368px;
-    margin: 23px;
+    width: 370px;
+    height: 404px;
+    margin: 30px;
     overflow: hidden;
 	background:#FFFFFF;
     box-sizing: border-box;

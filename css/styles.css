@@ -163,10 +163,9 @@ body{
 #buttons-center{
     display: inline-block;
     justify-content: center;
-    margin-left: 495px;
-    margin-right: 211px;
+    margin: 0 auto;
+    display: flex;
     margin-top: 106px;
-    margin-bottom: 50px;
 
 }
 

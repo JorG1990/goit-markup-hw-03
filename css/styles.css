@@ -17,43 +17,57 @@
 }
 
 body{
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    font-family: (link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet");
+    font-family: "roboto", sans-serif; 
+    font-size: 14px;
+    font-style: normal;
+    background-color:var(--white-color);
+    color: var(--black-color);
     
 }
 
-nav{
-    width: 1200px;
-    margin: 0 auto; 
-    padding-left: 215px;
-    padding-top: 24px;
-    padding-bottom: 32px;
-    background-color: var(--white-color);
-    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2);
-    list-style: none;
+.header{
     display: flex;
-
+    justify-content: space-between;
 }
-  
 
-.navigation .link:hover{
+.container_link li{
+    display: inline-block;
+    margin-top:  32px;
+    justify-content: space-between;
+}
+
+.header_navigation{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.header_navigation .item{
+    display: flex;
+    flex-direction: row;
+}
+
+.header_navigation .link:hover{
 	text-decoration: underline;
 }
 
-.navigation .title-text1:hover{
+.header_navigation .title-text1:hover{
 	text-decoration: underline;
+}
+
+.header_contact{
+    margin-left: 50px;
+
 }
 
 #bg {
-    display: block;
+    display: flex;
     height: 600px;
     width: 100%;
-    left: -4px;
-    top: 80px;
     border-radius: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
     background: var(--main-color);
 }
@@ -99,17 +113,12 @@ nav{
     line-height: 30px;
     width: 261px;
     height: 50px;
-    left: 666px;
-    top: 430px;
     display: flex;
-    flex-direction: row;
     padding-left: 32px;
     padding-top: 10px;
     padding-right: 32px;
     padding-bottom: 10px;
-    margin-left: 870px;
-    margin-top: 160px;
-    gap: 10px;
+    margin-top: 30px;
     cursor: pointer;
     
     background: var(--blue-color);
@@ -120,13 +129,8 @@ nav{
 
  .container {
     width: 1200px;
-    display: inline-block;
-    margin-left: 215px;
-    margin-top: 56px;
-    margin-bottom: 94px;
-    margin-right: 211px;
-    border: 0px;
-    padding: 0px auto;
+    margin: 0 auto;
+
 }
 
 .container-img{
@@ -187,9 +191,7 @@ nav{
 #text {
     display: flex;
     flex-direction:row;
-    
-    margin-top: 95px;
-    margin-bottom: 94px;
+justify-content: center;
    
 }
 
@@ -274,10 +276,6 @@ h1 {
     text-transform: uppercase;
     width: 696px;
     height: 120px;
-    margin-right: 200px;
-    margin-left: 652px;
-    margin-bottom: 30px;
-    padding-top: 200px;
     }
 
 h2 {

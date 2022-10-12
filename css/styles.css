@@ -140,7 +140,7 @@ body{
 
 .container2{
 
-    width: 1200;
+    width: 100%;
     height: 648px;
     margin: 0 auto;
     background-color: #F5F4FA;
@@ -150,13 +150,20 @@ body{
 .container-img1{
     width: 270px;
     height: 260px;
+ 
 }
 
-.container-portfolio{
-    width: 100%;
+.portfolio{
+    max-width: 1200px;
     margin: 0 auto;
-    display: flex;
+}
 
+.seccion{
+    margin:0 auto;
+    display: flex; 
+    flex-wrap: wrap; 
+    max-width: 1200px;
+    justify-content: space-between;
 }
 
 
@@ -318,7 +325,7 @@ h4 {
     display: inline-block;
     width: 370px;
     height: 404px;
-    margin: 30px;
+    margin-bottom: 30px;
     overflow: hidden;
 	background:#FFFFFF;
     box-sizing: border-box;
@@ -327,6 +334,11 @@ h4 {
 }
 .card .contents-card{
     padding: 30px;
+	text-align: justify;
+}
+
+.card-2 .contents-card2{
+    padding: 20px;
 	text-align: justify;
 }
 
